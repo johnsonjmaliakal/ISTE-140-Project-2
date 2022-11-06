@@ -1,17 +1,39 @@
 /* general /////////////////////////////////////////////////////*/
 
-body {
+body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
     color: #d1dbe4;
 }
 
 /* INDEX PAGE //////////////////////////////////////////////////*/
-
+.index_body{
+    background-image: url("../project2/assets/media/sharks.png");
+}
+.index_div{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: black;
+    align-items: flex-end;
+}
+.index_image{
+    size:30px;
+}
 /* BEHAVIOR PAGE ///////////////////////////////////////////////*/
 
 /* ANATOMY PAGE ////////////////////////////////////////////////*/
-
+#anatomy_h2{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap ;
+    padding: 5px 0;
+    background-color: #194a7a;
+    position: fixed;
+}
+#anatomy_caption{
+    font-style: italic;
+}
 /* SPECIES PAGE ////////////////////////////////////////////////*/
 
 /* REFERENCES PAGE /////////////////////////////////////////////*/
@@ -39,7 +61,7 @@ body {
     
     /* general /////////////////////////////////////////////////////*/
     
-    .header{
+    header{
         display: flex;
         width: 100%;
         align-items: center;

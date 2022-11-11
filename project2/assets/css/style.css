@@ -25,6 +25,12 @@ header > a {
 
 header > a img {
     width: 100%;
+    border-radius: 1em;
+    transition: background-color 0.5s;
+}
+
+header > a img:hover {
+    background-color: #d1dbe4;
 }
 
 header h1{
@@ -525,7 +531,7 @@ p.ddd {
         text-align: center;
         padding: 14px 16px;
         font-size: 100%;
-
+        transition: background-color 0.5s, color 0.5s;
     }
     nav ul li a:hover{
         background-color: #a3b7ca;
